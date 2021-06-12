@@ -1,0 +1,29 @@
+.highlights-title {
+  height: 50px;
+  width: 100%;
+  margin: 20px 0px 0px 0px;
+  color: #335384;
+  padding: 0px 10px;
+  font-size: 30px;
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+
+.highlights-items-container {
+  padding: 0px 10px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  color: #335384;
+}
+
+.highlights-items {
+  padding: 4px 10px;
+  border-right: 1px solid #335384;
+}
+
+@media screen and (max-width: 600px) {
+  .highlights-items {
+    border: none;
+  }
+}

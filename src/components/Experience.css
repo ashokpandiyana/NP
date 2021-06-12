@@ -1,0 +1,41 @@
+.experience-title {
+  height: 50px;
+  width: 100%;
+  margin: 20px 0px 0px 0px;
+  color: #335384;
+  padding: 0px 10px;
+  font-size: 30px;
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+
+.experience-container {
+  margin: 10px 0px 0px 0px;
+}
+
+.experience-items-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  color: #335384;
+  padding: 0px 15px;
+}
+
+.experience-items {
+  padding: 4px 5px;
+  border-right: 1px solid #335384;
+}
+
+.experience-heading {
+  width: 100%;
+  color: #335384;
+  padding: 0px 15px;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 600px) {
+  .experience-items {
+    border: none;
+  }
+}

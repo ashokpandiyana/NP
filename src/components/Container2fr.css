@@ -1,0 +1,21 @@
+.title {
+  height: 50px;
+  width: 100%;
+  margin: 10px 0px 5px 0px;
+  text-align: center;
+  color: #335384;
+  font-size: 30px;
+  font-weight: bolder;
+  /* border-bottom: 2px solid #335384; */
+}
+
+.designation-container {
+  display: flex;
+  color: #335384;
+  text-transform: uppercase;
+  flex-wrap: wrap;
+}
+
+.designation {
+  margin: 0px 20px;
+}

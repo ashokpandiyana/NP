@@ -84,8 +84,24 @@ const Container1fr = () => {
       </div>
       <div className="skills">
         <div className="skills-heading">Skills</div>
-        <Skills name={"HTML"} value={4} color={"#f7c93e"} />
+        <div className="skills-items-flex">
+          <Skills name={"HTML"} value={4} color={"#f7c93e"} />
+          <Skills name={"CSS"} value={3.5} color={"#f7c93e"} />
+          <Skills name={"JAVASCRIPT"} value={3.5} color={"#f7c93e"} />
+          <Skills name={"Typescript"} value={3} color={"#f7c93e"} />
+          <Skills name={"React"} value={4} color={"#f7c93e"} />
+          <Skills name={"Redux"} value={4} color={"#f7c93e"} />
+          <Skills name={"git"} value={4} color={"#f7c93e"} />
+          <Skills name={"SQL"} value={4} color={"#f7c93e"} />
+          <Skills name={"MongoDB"} value={3.5} color={"#f7c93e"} />
+          <Skills name={"Node JS"} value={3.5} color={"#f7c93e"} />
+          <Skills name={"Python"} value={3.5} color={"#f7c93e"} />
+          <Skills name={"DSA"} value={2.5} color={"#f7c93e"} />
+          <Skills name={"OOPS"} value={2.5} color={"#f7c93e"} />
+          <Skills name={"rest api"} value={2.5} color={"#f7c93e"} />
+        </div>
       </div>
+      <div className="footer">Made By Ashok A {new Date().getFullYear()}</div>
     </>
   );
 };

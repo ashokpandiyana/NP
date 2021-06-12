@@ -1,8 +1,9 @@
+import "./Skills.css";
 const Skills = ({ name, value, color }) => {
   return (
     <div className="skills-items">
-      <span>{name}</span>
-      <span>
+      <div className="skills-name">{name}</div>
+      <span className="skills-star">
         <i
           style={{ color }}
           className={
@@ -14,7 +15,7 @@ const Skills = ({ name, value, color }) => {
           }
         ></i>
       </span>
-      <span>
+      <span className="skills-star">
         <i
           style={{ color }}
           className={
@@ -26,7 +27,7 @@ const Skills = ({ name, value, color }) => {
           }
         ></i>
       </span>
-      <span>
+      <span className="skills-star">
         <i
           style={{ color }}
           className={
@@ -38,7 +39,7 @@ const Skills = ({ name, value, color }) => {
           }
         ></i>
       </span>
-      <span>
+      <span className="skills-star">
         <i
           style={{ color }}
           className={
@@ -50,7 +51,7 @@ const Skills = ({ name, value, color }) => {
           }
         ></i>
       </span>
-      <span>
+      <span className="skills-star">
         <i
           style={{ color }}
           className={
@@ -67,4 +68,3 @@ const Skills = ({ name, value, color }) => {
 };
 
 export default Skills;
-//style={{ padding: "0px 2px" }}

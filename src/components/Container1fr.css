@@ -29,3 +29,18 @@
   font-size: 25px;
   color: #e3e8ee;
 }
+
+.footer {
+  color: #e3e8ee;
+  /* font-size: 20px; */
+  bottom: 2px;
+  /* position: absolute; */
+  text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+  .skills-items-flex {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
