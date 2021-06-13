@@ -19,3 +19,18 @@
 .designation {
   margin: 0px 20px;
 }
+
+@media screen and (max-width: 600px) {
+  .designation-container {
+    display: flex;
+    color: #335384;
+    text-transform: uppercase;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .designation,
+  .experience {
+    margin: 0px 20px;
+  }
+}

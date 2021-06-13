@@ -33,9 +33,16 @@
   font-size: 16px;
   text-transform: uppercase;
 }
-
+.experience-heading-school {
+  width: 100%;
+  color: #335384;
+  padding: 5px 15px;
+  font-size: 16px;
+  text-transform: uppercase;
+}
 @media screen and (max-width: 600px) {
   .experience-items {
     border: none;
+    padding: 2px;
   }
 }
