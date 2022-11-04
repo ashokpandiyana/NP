@@ -6,7 +6,7 @@ const Experience = () => {
       <h1 className="experience-title">experience</h1>
       <div className="experience-container">
         <h4 className="experience-heading">
-          Animaker (Front End Developer) April 2021 - Present
+          Byjus (Front End Developer) Jul 2021 - Present
         </h4>
         <div className="experience-items-container">
           <div className="experience-items">
@@ -14,7 +14,7 @@ const Experience = () => {
             project
           </div>
           <div className="experience-items">
-            Mostly used React with Immutable Js,GSAP
+            Mostly used React with Redux
           </div>
           <div className="experience-items">
             Mostly involved in resolving bugs and implementing new features of
